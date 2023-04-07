@@ -61,7 +61,7 @@ public class Member {
 	@Temporal(TemporalType.DATE) //ORACLE에서는 TIMESTAMP와 차이가 없다.
 //	@Temporal(TemporalType.TIME)//1970/01/01에 맞는 시간만 나온다. 
 	private Date enrollDate;
-	
+	 
 	@Column(name="MEMBER_ROLE")
 	private String memberRole;
 	
